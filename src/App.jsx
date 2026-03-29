@@ -35,7 +35,7 @@ export default function App() {
       <section className="hero">
         <div className="hero-overlay" />
         <img
-          src="/images/hero-community-counter.png"
+          src="/hero-community-counter.png"
           alt="Pantry counter kitchen community"
           className="hero-image"
         />
@@ -102,8 +102,8 @@ export default function App() {
         </div>
 
         <div className="story-visuals">
-          <img src="/images/green-counter-kitchen.png" alt="Counter kitchen interior" />
-          <img src="/images/warm-wood-counter.png" alt="Warm wood open kitchen" />
+          <img src="/green-counter-kitchen.png" alt="Counter kitchen interior" />
+          <img src="/warm-wood-counter.png" alt="Warm wood open kitchen" />
         </div>
       </section>
 
@@ -119,12 +119,12 @@ export default function App() {
           </div>
 
          <div className="gallery-grid">
-  <img src="/images/curved-counter-room.png" alt="Community counter dining" className="gallery-tall" />
-  <img src="/images/bento-box.png" alt="Meal prep and pickup boxes" className="gallery-tall"/>
-  <img src="/images/pasta-night.png" alt="Rotating menu and chef nights" className="gallery-tall"/>
-  <img src="/images/fish-dish.png" alt="Refined plated dish at Pantry" />
-  <img src="/images/plate-polite-chef.png" alt="Plate detail" />
-   <img src="/images/chef-station-close.png" alt="Prep table food" />
+  <img src="/curved-counter-room.png" alt="Community counter dining" className="gallery-tall" />
+  <img src="/bento-box.png" alt="Meal prep and pickup boxes" className="gallery-tall"/>
+  <img src="/pasta-night.png" alt="Rotating menu and chef nights" className="gallery-tall"/>
+  <img src="/fish-dish.png" alt="Refined plated dish at Pantry" />
+  <img src="/plate-polite-chef.png" alt="Plate detail" />
+   <img src="/chef-station-close.png" alt="Prep table food" />
 </div>
         </div>
       </section>
