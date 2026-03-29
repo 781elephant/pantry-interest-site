@@ -419,4 +419,41 @@ button, input, select, textarea { font: inherit; }
   border: 0;
   background: transparent;
 }
+.dark-grid-clean {
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.dark-copy-column {
+  max-width: 640px;
+}
+
+.form-card-large {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 34px;
+  margin-top: 42px;
+}
+
+.form-helper-large {
+  margin-top: 10px;
+  margin-bottom: 28px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 860px) {
+  .dark-grid-clean {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .form-card-large {
+    margin-top: 0;
+    padding: 24px;
+  }
+}
 }

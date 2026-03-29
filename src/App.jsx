@@ -23,12 +23,6 @@ const pillars = [
   },
 ];
 
-const audience = [
-  'Future founding members',
-  'Locals who want Pantry in their area',
-  'People who want a better daily food routine',
-];
-
 export default function App() {
   return (
     <div className="site-shell">
@@ -157,30 +151,25 @@ export default function App() {
       </section>
 
       <section className="section dark-band">
-        <div className="container dark-grid">
-          <div>
+        <div className="container dark-grid dark-grid-clean">
+          <div className="dark-copy-column">
             <div className="section-kicker section-kicker-dark">Founding community</div>
             <h2>Be first to hear when Pantry opens in your city.</h2>
             <p className="dark-copy">
               Join the interest list, choose your city, and tell us how you would use Pantry.
               This helps us identify where the first 33 founding memberships should open.
             </p>
-
-            <div className="audience-list">
-              {audience.map((item) => (
-                <div key={item} className="audience-item">{item}</div>
-              ))}
-            </div>
           </div>
 
-          <div id="interest-form" className="form-card">
+          <div id="interest-form" className="form-card form-card-large">
             <div className="form-card-top">
               <div className="form-label">Founding interest</div>
               <div className="form-note-small">33 founding members per location</div>
             </div>
 
-            <p className="form-helper">
-              Join the interest list to hear first about launch locations, founding memberships, and opening updates.
+            <p className="form-helper form-helper-large">
+              Join the interest list to hear first about launch locations, founding memberships,
+              and opening updates.
             </p>
 
             <a
