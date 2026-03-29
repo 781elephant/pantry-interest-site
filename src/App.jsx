@@ -18,7 +18,7 @@ const pillars = [
     text: 'Each Pantry opens small on purpose, with a tight early community and a more personal experience.',
   },
   {
-    title: 'A shared private chef experience',
+    title: 'Weekly meal planning and prep',
     text: 'Part counter spot, part meal prep, part daily ritual — built for people who want better food ready through the week.',
   },
 ];
@@ -53,11 +53,11 @@ export default function App() {
           </div>
 
           <div className="hero-badges">
-  <span>33 founding members per location</span>
-  <span>From $1,800 to $2,500/year depending on location</span>
-  <span>Counter service + communal table</span>
-  <span>Dubai first, more cities to follow</span>
-        </div>
+            <span>33 founding members per location</span>
+            <span>From $1,800 to $2,500/year depending on location</span>
+            <span>Counter service + communal table</span>
+            <span>Dubai first, more cities to follow</span>
+          </div>
 
           <div className="hero-actions">
             <a href="#interest-form" className="button button-dark">Join the interest list</a>
@@ -82,17 +82,17 @@ export default function App() {
           <div className="section-kicker">What Pantry is</div>
           <h2>A sharper, more personal kind of neighborhood spot.</h2>
           <p>
-  Pantry brings together the energy of a counter restaurant, the convenience of a weekly meal system,
-  and the familiarity of a place that quickly becomes part of your routine.
-</p>
-<p>
-  Walk in for coffee and the days menu, or join as a founding member and use Pantry as your go-to kitchen:
-  a place for meals, pickup, consistency, and a better everyday food rhythm.
-</p>
-<p>
-  Depending on the location, founding membership is expected to start from approximately
-  $1,800 to $2,500 per year, with each Pantry opening small and intentionally limited to 33 members.
-</p>
+            Pantry brings together the energy of a counter restaurant, the convenience of a weekly meal system,
+            and the familiarity of a place that quickly becomes part of your routine.
+          </p>
+          <p>
+            Walk in for coffee and the days menu, or join as a founding member and use Pantry as your go-to kitchen:
+            a place for meals, pickup, consistency, and a better everyday food rhythm.
+          </p>
+          <p>
+            Depending on the location, founding membership is expected to start from approximately
+            $1,800 to $2,500 per year, with each Pantry opening small and intentionally limited to 33 members.
+          </p>
           <ul className="check-list">
             <li>Open kitchen and counter service first</li>
             <li>One communal table reserved for members</li>
@@ -111,21 +111,21 @@ export default function App() {
         <div className="container">
           <div className="section-head">
             <div className="section-kicker">Food, atmosphere, and routine</div>
-<h2>Open counters, member meals, pickup boxes, and food worth coming back for.</h2>
-<p>
-  Pantry is designed to feel social, useful, and memorable — a place for daily coffee,
-  rotating dishes, member meal pickup, and a more personal relationship with food through the week.
-</p>
+            <h2>Open counters, member meals, pickup boxes, and food worth coming back for.</h2>
+            <p>
+              Pantry is designed to feel social, useful, and memorable — a place for daily coffee,
+              rotating dishes, member meal pickup, and a more personal relationship with food through the week.
+            </p>
           </div>
 
-         <div className="gallery-grid">
-  <img src="/curved-counter-room.png" alt="Community counter dining" className="gallery-tall" />
-  <img src="/bento-box.png" alt="Meal prep and pickup boxes" className="gallery-tall"/>
-  <img src="/pasta-night.png" alt="Rotating menu and chef nights" className="gallery-tall"/>
-  <img src="/fish-dish.png" alt="Refined plated dish at Pantry" />
-  <img src="/plate-polite-chef.png" alt="Plate detail" />
-   <img src="/chef-station-close.png" alt="Prep table food" />
-</div>
+          <div className="gallery-grid">
+            <img src="/curved-counter-room.png" alt="Community counter dining" className="gallery-tall" />
+            <img src="/bento-box.png" alt="Meal prep and pickup boxes" className="gallery-tall" />
+            <img src="/pasta-night.png" alt="Rotating menu and chef nights" className="gallery-tall" />
+            <img src="/fish-dish.png" alt="Refined plated dish at Pantry" />
+            <img src="/plate-polite-chef.png" alt="Plate detail" />
+            <img src="/chef-station-close.png" alt="Prep table food" />
+          </div>
         </div>
       </section>
 
@@ -172,39 +172,18 @@ export default function App() {
               <div className="form-note-small">33 founding members per location</div>
             </div>
 
-            <form
-              className="interest-form"
-              onSubmit={(e) => {
-                e.preventDefault();
-                alert('Connect this form to Formspree, Tally, Airtable, HubSpot, or your preferred CRM.');
-              }}
-            >
-              <input type="text" placeholder="Full name" required />
-              <input type="email" placeholder="Email address" required />
-              <input type="text" placeholder="Phone or WhatsApp (optional)" />
-              <select defaultValue="" required>
-                <option value="" disabled>Select your city</option>
-                {cities.map((city) => (
-                  <option key={city.name} value={city.name}>{city.name}</option>
-                ))}
-              </select>
-              <select className="span-2" defaultValue="" required>
-                <option value="" disabled>I am interested as...</option>
-                <option>Potential founding member</option>
-                <option>Local supporter / community</option>
-                <option>Would love updates on launch</option>
-                <option>More than one of the above</option>
-              </select>
-              <input className="span-2" type="text" placeholder="Ideal neighborhood" />
-              <textarea
-                className="span-2"
-                rows="5"
-                placeholder="How would you use Pantry, and what about the concept speaks to you?"
-              />
-              <button type="submit" className="button button-dark button-full span-2">
-                Join the interest list
-              </button>
-            </form>
+            <div className="tally-embed-wrap">
+              <iframe
+                src="https://tally.so/embed/KYLj68?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                title="Pantry founding interest form"
+                loading="lazy"
+                width="100%"
+                height="760"
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0"
+              ></iframe>
+            </div>
 
             <p className="form-helper">
               Early registrants will be the first to hear about launch locations, founding memberships, and opening updates.
