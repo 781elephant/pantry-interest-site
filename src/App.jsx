@@ -60,7 +60,14 @@ export default function App() {
           </div>
 
           <div className="hero-actions">
-            <a href="#interest-form" className="button button-dark">Join the interest list</a>
+            <a
+              href="https://tally.so/r/KYLj68"
+              target="_blank"
+              rel="noreferrer"
+              className="button button-dark"
+            >
+              Join the interest list
+            </a>
             <a href="#cities" className="button button-light">See cities</a>
           </div>
         </div>
@@ -168,26 +175,22 @@ export default function App() {
 
           <div id="interest-form" className="form-card">
             <div className="form-card-top">
-              <div className="form-label">Founding interest form</div>
+              <div className="form-label">Founding interest</div>
               <div className="form-note-small">33 founding members per location</div>
             </div>
 
-            <div className="tally-embed-wrap">
-              <iframe
-                src="https://tally.so/embed/KYLj68?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-                title="Pantry founding interest form"
-                loading="lazy"
-                width="100%"
-                height="760"
-                frameBorder="0"
-                marginHeight="0"
-                marginWidth="0"
-              ></iframe>
-            </div>
-
             <p className="form-helper">
-              Early registrants will be the first to hear about launch locations, founding memberships, and opening updates.
+              Join the interest list to hear first about launch locations, founding memberships, and opening updates.
             </p>
+
+            <a
+              href="https://tally.so/r/KYLj68"
+              target="_blank"
+              rel="noreferrer"
+              className="button button-light button-full"
+            >
+              Open the interest form
+            </a>
           </div>
         </div>
       </section>
