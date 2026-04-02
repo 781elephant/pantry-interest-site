@@ -36,6 +36,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 .site-shell {
   min-height: 100vh;
 }
@@ -64,7 +69,7 @@ a {
     radial-gradient(circle at top left, rgba(255, 255, 255, 0.45), transparent 32%),
     radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.22), transparent 30%),
     linear-gradient(135deg, rgba(41, 31, 23, 0.62), rgba(24, 18, 14, 0.52)),
-    url("/hero-image.jpg") center center / cover no-repeat;
+    url("/images/hero-community-counter.png") center center / cover no-repeat;
 }
 
 .hero-overlay {
@@ -260,47 +265,60 @@ a {
   background: linear-gradient(to bottom, #f8f2e9, #f2e8db);
 }
 
+.public-section {
+  background: var(--bg);
+}
+
 .split-layout {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 32px;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 38px;
   align-items: center;
 }
 
 .split-layout.reverse {
-  grid-template-columns: 0.9fr 1.1fr;
+  grid-template-columns: 0.95fr 1.05fr;
 }
 
 .split-copy h2 {
   max-width: 560px;
 }
 
-.split-panel {
+.image-stack {
   display: grid;
   gap: 16px;
 }
 
-.panel-card,
+.image-card {
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  background: #fff;
+}
+
+.image-card img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-card.tall img {
+  min-height: 420px;
+}
+
+.feature-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 22px;
+}
+
 .feature-box {
   background: var(--card-strong);
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
-  padding: 22px;
+  padding: 18px 20px;
   box-shadow: var(--shadow);
-}
-
-.panel-card h3 {
-  margin: 0 0 10px;
-  font-size: 1.2rem;
-}
-
-.feature-box {
   font-weight: 600;
-  font-size: 1rem;
-}
-
-.public-section {
-  background: var(--bg);
 }
 
 .pricing-section {
@@ -403,9 +421,9 @@ a {
   .steps-grid,
   .key-points,
   .benefit-list,
-  .founding-grid,
   .split-layout,
-  .split-layout.reverse {
+  .split-layout.reverse,
+  .founding-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -430,10 +448,14 @@ a {
   .steps-grid,
   .key-points,
   .benefit-list,
-  .founding-grid,
   .split-layout,
-  .split-layout.reverse {
+  .split-layout.reverse,
+  .founding-grid {
     grid-template-columns: 1fr;
+  }
+
+  .image-card.tall img {
+    min-height: 300px;
   }
 
   .footer-inner {

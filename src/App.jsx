@@ -33,9 +33,7 @@ function App() {
           <div className="container narrow">
             <p className="section-label">What this is</p>
             <h2>Not a restaurant. Not meal delivery. Something better.</h2>
-            <p className="lead">
-              Pantry is a shared private chef model.
-            </p>
+            <p className="lead">Pantry is a shared private chef model.</p>
             <p>
               33 members come together to support a dedicated kitchen and chef,
               giving each member access to personalized, high quality meals throughout the week.
@@ -126,9 +124,7 @@ function App() {
             <div className="split-copy">
               <p className="section-label">The space</p>
               <h2>Your third place</h2>
-              <p className="lead">
-                Not home. Not work.
-              </p>
+              <p className="lead">Not home. Not work.</p>
               <p>
                 A place you can drop into daily for coffee, a meal, or just familiarity.
               </p>
@@ -138,18 +134,18 @@ function App() {
               </p>
             </div>
 
-            <div className="split-panel">
-              <div className="panel-card">
-                <h3>Neighborhood feel</h3>
-                <p>
-                  Calm, familiar, local, and built for repeat rhythm rather than occasion dining.
-                </p>
+            <div className="image-stack">
+              <div className="image-card tall">
+                <img
+                  src="/images/warm-wood-counter.png"
+                  alt="Warm neighborhood counter space"
+                />
               </div>
-              <div className="panel-card">
-                <h3>Communal counter</h3>
-                <p>
-                  Eat in when you want, grab and go when you do not, and keep it part of daily life.
-                </p>
+              <div className="image-card">
+                <img
+                  src="/images/chef-station-close.png"
+                  alt="Chef station inside Pantry"
+                />
               </div>
             </div>
           </div>
@@ -157,21 +153,18 @@ function App() {
 
         <section className="section public-section">
           <div className="container split-layout reverse">
-            <div className="split-panel">
-              <div className="feature-box">
-                <span>Hot and cold drinks</span>
+            <div className="image-stack">
+              <div className="image-card">
+                <img
+                  src="/images/green-counter-kitchen.png"
+                  alt="Counter kitchen with public menu feel"
+                />
               </div>
-              <div className="feature-box">
-                <span>Specialty coffee</span>
-              </div>
-              <div className="feature-box">
-                <span>2 to 3 rotating menu items</span>
-              </div>
-              <div className="feature-box">
-                <span>Cooked to order on site</span>
-              </div>
-              <div className="feature-box">
-                <span>Counter seating and takeaway</span>
+              <div className="image-card">
+                <img
+                  src="/images/bento-box.png"
+                  alt="Prepared meal for member pickup"
+                />
               </div>
             </div>
 
@@ -185,6 +178,25 @@ function App() {
                 Think drinks, coffee, and a very limited rotating food menu.
                 Small, thoughtful, and easy to return to.
               </p>
+
+              <div className="feature-list">
+                <div className="feature-box">
+                  <span>Hot and cold drinks</span>
+                </div>
+                <div className="feature-box">
+                  <span>Specialty coffee</span>
+                </div>
+                <div className="feature-box">
+                  <span>2 to 3 rotating menu items</span>
+                </div>
+                <div className="feature-box">
+                  <span>Cooked to order on site</span>
+                </div>
+                <div className="feature-box">
+                  <span>Counter seating and takeaway</span>
+                </div>
+              </div>
+
               <p className="closing-line">
                 Members always come first. But the neighborhood is always welcome.
               </p>
@@ -236,7 +248,7 @@ function App() {
 
               <div className="form-embed-wrap">
                 <iframe
-                  src="https://tally.so/r/KYLj68?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                  src="https://tally.so/embed/your-form-id?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
                   loading="lazy"
                   width="100%"
                   height="420"
