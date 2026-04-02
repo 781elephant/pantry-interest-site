@@ -69,7 +69,7 @@ img {
     radial-gradient(circle at top left, rgba(255, 255, 255, 0.45), transparent 32%),
     radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.22), transparent 30%),
     linear-gradient(135deg, rgba(41, 31, 23, 0.62), rgba(24, 18, 14, 0.52)),
-    url("/images/hero-community-counter.png") center center / cover no-repeat;
+    url("/hero-community-counter.png") center center / cover no-repeat;
 }
 
 .hero-overlay {

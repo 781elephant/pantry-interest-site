@@ -137,13 +137,13 @@ function App() {
             <div className="image-stack">
               <div className="image-card tall">
                 <img
-                  src="/images/warm-wood-counter.png"
+                  src="/warm-wood-counter.png"
                   alt="Warm neighborhood counter space"
                 />
               </div>
               <div className="image-card">
                 <img
-                  src="/images/chef-station-close.png"
+                  src="/chef-station-close.png"
                   alt="Chef station inside Pantry"
                 />
               </div>
@@ -156,13 +156,13 @@ function App() {
             <div className="image-stack">
               <div className="image-card">
                 <img
-                  src="/images/green-counter-kitchen.png"
+                  src="/green-counter-kitchen.png"
                   alt="Counter kitchen with public menu feel"
                 />
               </div>
               <div className="image-card">
                 <img
-                  src="/images/bento-box.png"
+                  src="/bento-box.png"
                   alt="Prepared meal for member pickup"
                 />
               </div>
