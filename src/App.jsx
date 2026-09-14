@@ -9,12 +9,16 @@ function App() {
         <div className="container hero-inner">
           <p className="eyebrow">Private members kitchen</p>
 
-          <h1>A restaurant for 33 people.</h1>
+          <h1>Your private chef. Shared by 33 members.</h1>
 
           <p className="hero-subtext">
-            Your meals, your preferences, your private chef shared.
-            A members only kitchen built for weekly meal prep, with optional dine in and takeaway.
-            Plus a small neighborhood counter for coffee and a rotating menu.
+            A private members kitchen built around you. Your meals are prepared
+            throughout the week for pickup, takeaway, or dining in, with a
+            neighborhood space that feels like your own.
+          </p>
+
+          <p className="hero-secondary">
+            Part private chef. Part members restaurant. Part third place.
           </p>
 
           <div className="hero-actions">
@@ -32,7 +36,7 @@ function App() {
         <section className="section intro-section">
           <div className="container narrow">
             <p className="section-label">What this is</p>
-            <h2>Not a restaurant. Not meal delivery. Something better.</h2>
+            <h2>Not meal delivery. Not quite a restaurant.</h2>
             <p className="lead">Pantry is a shared private chef model.</p>
             <p>
               33 members come together to support a dedicated kitchen and chef,
@@ -51,6 +55,32 @@ function App() {
             <p className="closing-line">
               This is your everyday food system, simplified.
             </p>
+          </div>
+        </section>
+
+        <section className="section third-place-section">
+          <div className="container split-layout">
+            <div className="split-copy">
+              <p className="section-label">The space</p>
+              <h2>Your third place</h2>
+              <p className="lead">Not home. Not work.</p>
+              <p>
+                A place you can drop into daily for coffee, a meal, or just familiarity.
+              </p>
+              <p>
+                You will know the space. The team will know you. And your food will
+                already be taken care of.
+              </p>
+            </div>
+
+            <div className="image-stack single-image">
+              <div className="image-card tall">
+                <img
+                  src="/warm-wood-counter.png"
+                  alt="Warm neighborhood counter space"
+                />
+              </div>
+            </div>
           </div>
         </section>
 
@@ -119,64 +149,26 @@ function App() {
           </div>
         </section>
 
-        <section className="section third-place-section">
-          <div className="container split-layout">
-            <div className="split-copy">
-              <p className="section-label">The space</p>
-              <h2>Your third place</h2>
-              <p className="lead">Not home. Not work.</p>
-              <p>
-                A place you can drop into daily for coffee, a meal, or just familiarity.
-              </p>
-              <p>
-                You will know the space. The team will know you.
-                And your food will already be taken care of.
-              </p>
-            </div>
-
-            <div className="image-stack">
-              <div className="image-card tall">
-                <img
-                  src="/warm-wood-counter.png"
-                  alt="Warm neighborhood counter space"
-                />
-              </div>
-              <div className="image-card">
-                <img
-                  src="/chef-station-close.png"
-                  alt="Chef station inside Pantry"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section className="section public-section">
           <div className="container split-layout reverse">
-            <div className="image-stack">
-              <div className="image-card">
+            <div className="image-stack single-image">
+              <div className="image-card public-image">
                 <img
                   src="/green-counter-kitchen.png"
-                  alt="Counter kitchen with public menu feel"
-                />
-              </div>
-              <div className="image-card">
-                <img
-                  src="/bento-box.png"
-                  alt="Prepared meal for member pickup"
+                  alt="Neighborhood kitchen counter"
                 />
               </div>
             </div>
 
             <div className="split-copy">
               <p className="section-label">Public side</p>
-              <h2>A neighborhood spot, with a twist</h2>
-              <p>
-                Pantry is also open to the public, but intentionally simple.
+              <h2>Your neighborhood kitchen</h2>
+              <p className="lead">
+                Pantry is members first, but the counter is open to everyone.
               </p>
               <p>
-                Think drinks, coffee, and a very limited rotating food menu.
-                Small, thoughtful, and easy to return to.
+                Drop in for great coffee, drinks, and a small rotating menu of two or
+                three dishes cooked to order.
               </p>
 
               <div className="feature-list">
@@ -198,7 +190,7 @@ function App() {
               </div>
 
               <p className="closing-line">
-                Members always come first. But the neighborhood is always welcome.
+                Members always come first. The neighborhood is always welcome.
               </p>
             </div>
           </div>
@@ -246,17 +238,12 @@ function App() {
                 Register interest for your city and be first to hear when founding spots open.
               </p>
 
-              <div className="form-embed-wrap">
-                <iframe
-                  src="https://tally.so/embed/your-form-id?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-                  loading="lazy"
-                  width="100%"
-                  height="420"
-                  frameBorder="0"
-                  marginHeight="0"
-                  marginWidth="0"
-                  title="Founding members interest form"
-                ></iframe>
+              <div className="interest-placeholder">
+                <p className="interest-status">Founding member registration is opening shortly.</p>
+                <p>
+                  The previous form link was only a placeholder. The live registration
+                  form will appear here once its final form URL is connected.
+                </p>
               </div>
             </div>
           </div>
@@ -266,7 +253,7 @@ function App() {
       <footer className="site-footer">
         <div className="container footer-inner">
           <div>
-            <p className="footer-brand">Pantry</p>
+            <p className="footer-brand">Blank Pantry</p>
             <p className="footer-copy">
               A shared private chef for 33 members, plus a small neighborhood kitchen.
             </p>
