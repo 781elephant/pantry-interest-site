@@ -233,17 +233,25 @@ function App() {
             </div>
 
             <div className="founding-form-card">
-              <h3>Submit interest</h3>
+              <h3>Join the interest list</h3>
               <p>
-                Register interest for your city and be first to hear when founding spots open.
+                Tell us your city and a little about how you would use Pantry. We will
+                let you know when founding member spots become available.
               </p>
 
               <div className="interest-placeholder">
-                <p className="interest-status">Founding member registration is opening shortly.</p>
+                <p className="interest-status">Interested in becoming a founding member?</p>
                 <p>
-                  The previous form link was only a placeholder. The live registration
-                  form will appear here once its final form URL is connected.
+                  Complete the short Blank Pantry interest form to register your interest.
                 </p>
+                <a
+                  href="https://tally.so/r/blank-pantry"
+                  className="btn interest-btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Join the interest list
+                </a>
               </div>
             </div>
           </div>
